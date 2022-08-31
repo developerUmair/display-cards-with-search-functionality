@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  outline: none;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #222;
+}
+
+.container {
+  padding: relative;
+  align-items: center;
+  padding: 20px 30px;
+  /* width: 400px; */
+  background: #222;
+  border-radius: 4px;
+}
+
+.switch {
+  position: absolute;
+  right: 480px;
+  display: flex;
+  border-bottom: 1px solid red;
+}
+
+.login {
+  padding: 5px 12px;
+  margin-bottom: 10px;
+  border-radius: 50px;
+  text-align: right;
+  margin-left: 4px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.signup {
+  padding: 5px 12px;
+  margin-bottom: 10px;
+  border-radius: 50px;
+  text-align: right;
+  margin-left: 4px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.container .outer {
+  width: 100%;
+  margin-top: 40px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.outer #form {
+  width: 200%;
+  position: relative;
+  display: flex;
+  margin: auto;
+}
+
+#page {
+  margin: auto;
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  padding: 10px 15px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.element {
+  position: relative;
+}
+
+.element input {
+  /* width: 80%; */
+  height: 40px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  background-color: #2a2a2a;
+  border: 1px solid gray;
+  padding-left: 40px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+input::placeholder {
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+#btn {
+  padding: 5px 25px;
+  border-radius: 50px;
+  font-size: 18px;
+  text-transform: uppercase;
+  border: none;
+  margin-top: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#btn:active {
+  transform: scale(1.01);
+}
